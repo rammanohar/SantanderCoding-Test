@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="11.0.0-rc.1.26425.128" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HackerNews.Models\HackerNews.Models.csproj" />
+    <ProjectReference Include="..\HackerNews.Schema\HackerNews.Schema.csproj" />
+    <ProjectReference Include="..\IHackerNews\IHackerNews.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="HackerNews.Models/HackerNews.Models.csproj" />
+  <Project Path="HackerNews.Schema/HackerNews.Schema.csproj" Id="2a23600a-3056-4a21-8f70-ce99e6593154" />
+  <Project Path="HackerNews.Tests/HackerNews.Tests.csproj" Id="2cf25d73-b243-4181-af71-825c2090d289" />
+  <Project Path="HackerNews.Api/HackerNews.Api.csproj" />
+  <Project Path="HackerNews.Service/HackerNews.Service.csproj" />
+  <Project Path="IHackerNews/IHackerNews.csproj" />
+</Solution>
